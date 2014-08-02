@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'welcome/sitemap'
+
+  get 'welcome/about'
+
+  get 'pages/sitemap'
+
+  get 'site/map'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
