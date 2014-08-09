@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def sitemap
+  def categories
   end
 end

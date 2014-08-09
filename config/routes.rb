@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'welcome/categories'
+
 root 'welcome#index'
   
   get 'welcome/sitemap'
