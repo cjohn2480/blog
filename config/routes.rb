@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 
-  get 'welcome/categories'
+  get 'welcome/news'
+
+  get 'welcome/music'
+
+  get 'welcome/sports'
+
+  get 'welcome/tech'
 
 root 'welcome#index'
   
@@ -11,6 +17,8 @@ root 'welcome#index'
   get 'welcome' => 'welcome#index'
 
   get 'welcome/index' => 'welcome#index'
+
+  
 
    
 

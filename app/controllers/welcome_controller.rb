@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def categories
+  def news
   end
 end
